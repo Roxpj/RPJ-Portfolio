@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+.cache/
+*.zip
+
+node_modules/
+dist/
+dist-ssr
+*.local
+.env
+
+
+# Editor configuration files
+.editorconfig
+.eslintrc
+.prettierignore
+.prettierrc
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
