@@ -1,9 +1,5 @@
-function App() {
-  return (
-    <>
-      <h1>Vite + React</h1>
-    </>
-  );
-}
+const App = () => {
+  return <div>Web Developer Portfolio</div>;
+};
 
 export default App;
