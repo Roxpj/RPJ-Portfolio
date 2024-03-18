@@ -18,7 +18,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#925eff">Roxana</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop and design <br className="sm:block hidden" />
+            I design and develop <br className="sm:block hidden" />
             websites and mobile applications.
           </p>
         </div>
@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}

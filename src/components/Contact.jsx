@@ -7,7 +7,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//cambiar modelo 3d??
+//cambiar modelo 3d?? las estrellas bien
+//service_7lgs5dg
+//Uhrzp0wG07AwnFgvq
+//template_g9ypw3e
 
 const Contact = () => {
   const formRef = useRef();
@@ -39,9 +42,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Roxana PJ",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "roxanapj.92@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

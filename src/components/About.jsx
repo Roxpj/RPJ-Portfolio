@@ -7,7 +7,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-//cambiar texto
+//cambiar texto y skills
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -53,9 +53,9 @@ const About = () => {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => {
-          <ServiceCard key={service.title} index={index} {...service} />;
-        })}
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
       </div>
     </>
   );

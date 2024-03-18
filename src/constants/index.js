@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  Captura1,
+  brainstorm,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +82,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
+  /*  {
     name: "Redux Toolkit",
     icon: redux,
-  },
+  }, */
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -108,10 +110,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
+  /*  {
     name: "docker",
     icon: docker,
-  },
+  }, */
 ];
 
 const experiences = [
@@ -198,7 +200,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Brainstorm Marketplace",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,37 +209,47 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "express",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "mySQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "violet-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: brainstorm,
+    source_code_link: "https://github.com/MigVarona/brainstorm",
+    deploy_link: "https://brainstorm-psi.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "ToDoList",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This application is designed for organizing daily tasks, allowing you to add, mark as complete, edit, and delete them as needed. Additionally, it features a dark mode for user preference.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Captura1,
+    source_code_link: "https://github.com/Roxpj/ToDoList",
+    deploy_link: "https://roxpj.github.io/ToDoList/",
   },
   {
     name: "Trip Guide",
