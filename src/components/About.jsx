@@ -7,8 +7,6 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
-//cambiar texto y skills
-
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
@@ -46,11 +44,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm web developer with experience in TypeScript and JavaScript, in
+        frameworks like React and Node.js. Artist and educator for 7 years, I
+        discovered programming as a way to combine creativity with logic, and
+        became fascinated by the potential of digital creation. I'm a quick
+        learner and I'm always looking for new ways to expand my creative
+        horizons, my latest challenge is learning how to play ukulele. Let's
+        work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

@@ -56,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cybersecurity",
     icon: creator,
   },
 ];
@@ -110,39 +110,37 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  /*  {
+  {
     name: "docker",
     icon: docker,
-  }, */
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Full Stack Developer and Cibersecurity",
+    company_name: "Factoría F5",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using React.js and other related technologies while integrating cybersecurity measures",
+      "Collaborating with other developers and leading projects to create high-quality products.",
+      "Supported my team members in their learning process and resolving technical issues.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Graphic Designer",
+    company_name: "CICE",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed mobile app, focusing on user interface (UI) and user experience (UX).",
+      "Tailored the work to meet client specifications while aligning with the brand's visual identity and requirements.",
     ],
   },
+  /* 
   {
     title: "Web Developer",
     company_name: "Shopify",
@@ -168,7 +166,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }, */
 ];
 
 const testimonials = [
