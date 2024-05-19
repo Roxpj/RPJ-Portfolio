@@ -25,6 +25,7 @@ import {
   threejs,
   Captura1,
   brainstorm,
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -48,16 +49,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
     title: "Cybersecurity",
     icon: creator,
+  },
+  {
+    title: "Graphic Designer",
+    icon: mobile,
   },
 ];
 
@@ -95,23 +96,27 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "mySQL",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
+  /*  {
     name: "Three JS",
     icon: threejs,
-  },
+  }, */
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
@@ -124,7 +129,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "October 2023 - Present",
     points: [
-      "Developing web applications using React.js and other related technologies while integrating cybersecurity measures",
+      "Developing web applications using React.js and other related technologies while integrating cybersecurity measures.",
       "Collaborating with other developers and leading projects to create high-quality products.",
       "Supported my team members in their learning process and resolving technical issues.",
     ],
@@ -140,33 +145,19 @@ const experiences = [
       "Tailored the work to meet client specifications while aligning with the brand's visual identity and requirements.",
     ],
   },
-  /* 
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Workshop Instructor",
+    company_name: "Virensis and Tritoma",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "4 years of experience",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created comprehensive workshop curricula centered on best practices.",
+      "Successfully managed group dynamics, fostering participation, and addressing participant questions and concerns.",
+      "Adapted workshop content to meet the needs and levels of participants, ensuring a personalized educational experience.",
+      "Conducted regular assessments to measure participants progress and provided constructive feedback.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  }, */
 ];
 
 const testimonials = [
