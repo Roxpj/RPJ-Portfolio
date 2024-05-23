@@ -15,17 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   Captura1,
   brainstorm,
+  empleatecontalento,
   mysql,
+  CICE,
+  factoriaf5,
+  tritoma,
 } from "../assets";
 
 export const navLinks = [
@@ -125,8 +122,8 @@ const experiences = [
   {
     title: "Full Stack Developer and Cibersecurity",
     company_name: "Factoría F5",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: factoriaf5,
+    iconBg: "#fe4600",
     date: "October 2023 - Present",
     points: [
       "Developing web applications using React.js and other related technologies while integrating cybersecurity measures.",
@@ -137,7 +134,7 @@ const experiences = [
   {
     title: "Graphic Designer",
     company_name: "CICE",
-    icon: tesla,
+    icon: CICE,
     iconBg: "#E6DEDD",
     date: "2019",
     points: [
@@ -148,8 +145,8 @@ const experiences = [
   {
     title: "Workshop Instructor",
     company_name: "Virensis and Tritoma",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: tritoma,
+    iconBg: "#012e58",
     date: "4 years of experience",
     points: [
       "Created comprehensive workshop curricula centered on best practices.",
@@ -191,7 +188,7 @@ const projects = [
   {
     name: "Brainstorm Marketplace",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, rent and buy IA and robotics related products from creators and developers.",
     tags: [
       {
         name: "react",
@@ -221,7 +218,7 @@ const projects = [
   {
     name: "ToDoList",
     description:
-      "This application is designed for organizing daily tasks, allowing you to add, mark as complete, edit, and delete them as needed. Additionally, it features a dark mode for user preference.",
+      "This application is designed for organizing daily tasks, allowing you to add, mark as complete, edit, and delete them as needed. It features a dark mode for user preference.",
     tags: [
       {
         name: "javascript",
@@ -241,25 +238,38 @@ const projects = [
     deploy_link: "https://roxpj.github.io/ToDoList/",
   },
   {
-    name: "Trip Guide",
+    name: "Empléate con Talento ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An interactive educational platform designed to boost user's professional and personal development with a combination of a chatbot and 3 unique games,designed to discover and amplify skills, interests, and career goals.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "axios",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "bcryptjs",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "orange-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: empleatecontalento,
+    source_code_link: "https://github.com/Isarok/EmpleateConTalentoFront",
+    deploy_link: "https://empleate-con-talento-front.vercel.app/",
   },
 ];
 

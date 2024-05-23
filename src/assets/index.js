@@ -26,16 +26,13 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import mysql from "./tech/mysql.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import CICE from "./company/CICE.png";
+import factoriaf5 from "./company/factoriaf5.png";
+import tritoma from "./company/tritoma.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import Captura1 from "./Captura1.png";
 import brainstorm from "./brainstorm.png";
+import empleatecontalento from "./empleatecontalento.png";
 
 export {
   logo,
@@ -63,14 +60,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   Captura1,
   brainstorm,
+  empleatecontalento,
   mysql,
+  CICE,
+  factoriaf5,
+  tritoma,
 };
